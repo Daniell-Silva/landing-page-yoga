@@ -1,0 +1,222 @@
+@media only screen and (min-width:320px) and (max-width:768px) {
+
+    #header {
+        padding: 0 20px;
+    }
+
+    #header .menu {
+        display: none;
+    }
+
+    #header .headline {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #header .headline h1 {
+        font-size: 3.9rem;
+    }
+
+
+
+    #curses {
+        padding: 0 20px;
+    }
+
+
+
+    #aboutUs {
+        padding: 0 20px;
+    }
+
+    #aboutUs .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #aboutUs .aboutUs-text {
+        padding-bottom: 3rem;
+    }
+
+    #aboutUs .aboutUs-image .image-adoutus {
+        width: 100% !important;
+    }
+
+    #aboutUs .aboutUs-text--contents {
+        max-width: 800px !important;
+    }
+
+    #aboutUs .aboutUs-text .aboutUs-text-box {
+
+    }
+
+
+
+
+    #specialTrainer {
+        padding: 0 20px;
+    }
+
+    #specialTrainer .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #specialTrainer .special-trainer--contents {
+        max-width: 800px !important;
+    }
+
+    #specialTrainer .image-special-trainer {
+        width: 100% !important;
+    }
+
+    #specialTrainer .special-trainer--image .special-trainer-image--master {
+        left: -81px !important;
+    }
+
+
+
+    #pricing {
+        padding: 0 20px;
+    }
+
+    #pricing .pricing-plans .pricing-box:last-child {
+        margin-right: 10px !important;
+    }
+
+    #pricing .pricing-plans .pricing-box:first-child {
+        margin-left: 10px !important;
+    }
+
+
+
+    #clientSays {
+        padding: 0 20px !important;
+    }
+
+    #clientSays .container {
+        padding: 5rem 0;
+    }
+
+    #clientSays .client-says-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    #footer {
+        padding: 0 20px;
+    }
+
+    #footer .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer .footer-info {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    #footer .footermenu {
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (min-width:425px) and (max-width:768px) {
+    #specialTrainer .image-special-trainer {
+        width: 90% !important;
+    }
+
+    #specialTrainer .special-trainer--image .special-trainer-image--master {
+        left: 20px !important;
+    }
+}
+
+
+@media only screen and (min-width:425px) and (max-width:568px) {
+    #header .headline h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+}
+
+
+@media only screen and (min-width:375px) and (max-width:425px) {
+    #header .headline h1 {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+
+    #header .headline-image--dailyWork {
+        left: -7px !important;
+        top: 65px !important;
+    }
+
+    #header .card-treiner {
+        right: -12px;
+    }
+
+
+
+
+    #aboutUs .aboutUs-image .image-adoutus {
+        width: 100% !important;
+    }
+
+    #aboutUs .card-treiner {
+        position: absolute;
+        right: 15px;
+        bottom: 290px;
+    }
+
+
+
+    #specialTrainer .special-trainer--image .special-trainer-image--master {
+        left: -7px !important;
+    }
+
+    #specialTrainer .special-trainer--image {
+        margin-top: 3rem;
+    }
+
+
+
+
+    #pricing .pricing-plans .pricing-box {
+        margin: 10px 0 !important;
+    }
+
+    #pricing .pricing-plans .pricing-box:last-child {
+        margin-right: 0 !important;
+    }
+
+    #pricing .pricing-plans .pricing-box:first-child {
+        margin-left: 0 !important;
+    }
+
+
+
+    #clientSays .controls-slider {
+        top: 100px !important;
+    }
+
+    #footer .footer-info {
+        margin-bottom:  0.8rem;
+    }
+
+    #footer nav ul {
+        margin-top: 1.7rem;
+    }
+
+    /*@media only screen and (min-width:375px) and (max-width:425px) {
+        #header .headline h1 {
+            font-size: 0.7rem !;
+            line-height: 3rem;
+        }
+    }*/
+
+}

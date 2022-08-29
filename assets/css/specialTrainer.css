@@ -1,0 +1,108 @@
+#specialTrainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 9rem;
+}
+
+
+
+#specialTrainer .special-trainer--text {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#specialTrainer .special-trainer--text .special-trainer--contents {
+    max-width: 520px;
+}
+
+#specialTrainer .special-trainer--text h4 {
+    color: var(--color-bg-default);
+    font-weight: 400;
+}
+
+#specialTrainer .special-trainer--text h2 {
+    margin-bottom: 1.5rem;
+    line-height: 2.5rem;
+}
+
+#specialTrainer .special-trainer--text .list-special-trainer {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+#specialTrainer .special-trainer--text .list-special-trainer span {
+    height: 80%;
+    width: 3px;
+    position: absolute;
+    top: 8px;
+    left: 5.6px;
+    z-index: 0;
+    background-color: rgb(194, 194, 194);
+}
+
+#specialTrainer .special-trainer--text .list-special-trainer p {
+    margin-bottom: 0.4rem;
+}
+
+#specialTrainer .fa-circle {
+    color: var(--color-bg-default);
+    position: relative;
+    z-index: 1;
+}
+
+#specialTrainer .special-trainer--image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#specialTrainer .special-trainer--image .special-trainer-image--contents {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#specialTrainer .special-trainer--image .image-special-trainer {
+    width: 70%;
+}
+
+#specialTrainer .special-trainer-image--contents .vector {
+    width: 60%;     
+    height: 40%;
+    border-radius: 3rem;
+    background-color: var(--color-bg-default);
+    position: absolute;
+    bottom: 40px;
+    right: 50%;
+    transform: translatex(50%);
+    z-index: -1;
+}
+
+#specialTrainer .special-trainer--image .special-trainer-image--master {
+    position: absolute;
+    z-index: 10;
+    left: 0px;
+    top: 35%;
+    padding: 15px;
+    border-radius: 0.6rem;
+    background-color: rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+    box-shadow: 5px 5px 80px rgba(209, 46, 73, 0.247);
+}
+
+#specialTrainer .special-trainer--image .special-trainer-image--master h4 {
+    margin-bottom: 0.4rem;
+}
+
+#specialTrainer .special-trainer--image .special-trainer-image--master p {
+    font-size: 0.7rem;
+}
+
+
+
+

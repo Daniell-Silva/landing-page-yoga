@@ -1,0 +1,60 @@
+#aboutUs {
+    display: flex;
+    justify-content: center;
+    margin-top: 9rem;
+}
+
+#aboutUs .aboutUs-image {
+    flex: 1;
+    position: relative;
+}
+
+
+#aboutUs .aboutUs-image .card-treiner .card-treiner--icon .icon-yoga-pose {
+    width: 25px;
+}
+
+#aboutUs .aboutUs-image .image-adoutus {
+    width: 80%;
+}
+
+#aboutUs .aboutUs-text {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#aboutUs .aboutUs-text .aboutUs-text--contents {
+    max-width: 500px;
+}
+
+#aboutUs .aboutUs-text h4 {
+    color: var(--color-bg-default);
+    font-weight: 400;
+}
+
+#aboutUs .aboutUs-text h2 {
+    margin-bottom: 1rem;
+    line-height: 2.5rem;
+}
+
+#aboutUs .aboutUs-text .aboutUs-text-box {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding: 1.5rem 1.2rem;
+    border-left: 8px solid var(--color-bg-default);
+    background-color: var(--color-secondary);
+}
+
+#aboutUs .aboutUs-counter-curses {
+    flex: 1;
+}
+#aboutUs .aboutUs-text .aboutUs-text-box .aboutUs-counter-curses h2 {
+    margin-bottom: 0;
+}
+
+#aboutUs .aboutUs-text .aboutUs-text-box .aboutUs-counter-curses p {
+    color: var(--color-bg-default);
+    font-size: 0.9rem;
+}

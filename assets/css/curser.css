@@ -1,0 +1,107 @@
+#curses {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#curses .curses-title {
+    flex: 1;
+    text-align: center;
+    margin-top: 9rem;
+    margin-bottom: 1.8rem;
+}
+
+#curses .curses-title p {
+    margin-top: 0.6rem;
+}
+
+#curses .curses-boxs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#curses .curses-box--info {
+    flex: 1;
+    height: 400px;
+    min-width: 300px;
+    margin: 8px;
+    border-radius: 10px;
+    background-color:rgb(189, 9, 9);
+    position: relative;
+}
+
+#curses .curses-box--info:hover .curses-box--information {
+    display: block;
+}
+
+#curses .curses-box--info.curses-box-image1 {
+    background-image: url('../image/image-yoga1.webp');
+    background-position: center;
+    background-size: cover;
+}
+#curses .curses-box--info.curses-box-image2 {
+    background-image: url('../image/image-yoga2.webp');
+    background-position: center;
+    background-size: cover;
+}
+#curses .curses-box--info.curses-box-image3 {
+    background-image: url('../image/image-yoga3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#curses .curses-box--info h3 {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    transform: translatex(-50%);
+    color: var(--font-color-white);
+}
+
+#curses .curses-box--information {
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    z-index: 10;  
+    padding: 30px;
+    border-radius: 10px;
+    display: none;  
+    background-color: var(--color-bg-default);
+    animation-name: animabox;
+    animation-duration: 0.1s;
+}
+
+@keyframes animabox {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+#curses .curses-boxs .curses-box--text {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#curses .curses-box--info .curses-box--information p {
+    color: var(--font-color-white);
+    margin-bottom: 2rem;
+}
+
+#curses .curses-box--info .curses-box--information p:first-child {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+#curses .curses-box--info .button-default {
+    background-color: #fff !important;
+    color: var(--color-bg-default) !important;
+} 
+

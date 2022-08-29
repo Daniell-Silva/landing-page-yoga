@@ -1,0 +1,89 @@
+:root {
+    /*--CORES DE FONTE--*/
+    --font-color-default: rgb(73, 73, 73);
+    --font-color-white: rgb(255, 255, 255);
+    --font-color-black: rgb(0, 0, 0);
+    --font-color-h2: rgb(14, 14, 14);
+    --font-color-h1: rgb(14, 14, 14);
+
+    /*--CORES PADRÃO--*/
+    --color-bg-default: #ca1f3d;
+    --color-secondary: #fdf2f4;
+
+    /*--ESTILO DA FONTE--*/
+    --style-font: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--style-font);
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.7rem;
+    color: var(--font-color-h1);
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--font-color-h2);
+}
+h4 {
+    font-size: 1rem;
+    color: var(--font-color);
+}
+
+p {
+    font-size: 1rem;
+    color: var(--font-color-default);
+}
+
+.button-default {
+    color: var(--font-color-white) !important;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    background-color: var(--color-bg-default);
+    box-shadow: 5px 5px 50px rgba(209, 46, 73, 0.247);
+}
+
+.card-treiner {
+    position: absolute;
+    right: 15px;
+    bottom: 190px;
+    z-index: 20;
+    border-radius: 0.6rem;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 5px 5px 80px rgba(209, 46, 73, 0.247);
+}
+
+.card-treiner .card-treiner--icon {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 0.5rem;
+    margin-right: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:var(--color-bg-default)
+}
+
+.card-treiner p {
+    font-size: 0.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,137 @@
+#clientSays {
+    flex: 1;
+    margin-top: 9rem;
+    padding: 6rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-secondary);
+}
+
+#clientSays .client-says-text {
+    width: 100%;
+    padding-bottom: 3rem;
+    position: relative;
+}
+
+#clientSays .client-says-text h2 {
+    line-height: 2.3rem;
+}
+
+#clientSays .client-says-text h4 {
+    color: var(--color-bg-default);
+    font-weight: 400;
+}
+
+.client-says-container {
+    width: 100%;
+    display: flex;
+}
+
+#clientSays .client-says--image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.client-says--bx-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#clientSays .client-says--bx-img img {
+    width: 70%;
+}
+
+#clientSays .client-says--testimonial {
+    flex: 1;
+    display: flex;
+}
+
+.content-testimonial--sliders {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+#clientSays .setas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid var(--font-color-default);
+    transition: all 0.2s;
+}
+
+#clientSays .setas:hover {
+    background-color: var(--color-bg-default);
+    color: var(--font-color-white);
+    border: 1px solid var(--color-bg-default);
+}
+
+#clientSays .testimonial--slider-width {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial--slider-item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#clientSays .testimonial--slider-item img {
+    width: 20px;
+}
+
+#clientSays .testimonial--slider-item .icon-aspas {
+    position: absolute;
+    top: 60px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-bg-default);
+}
+
+
+#clientSays .testimonial--slider-item h3 {
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+    line-height: 2.3rem;
+}
+
+#clientSays .testimonial--slider-item h4 {
+    margin-top: 1.7rem;
+}
+
+#clientSays .testimonial--slider-item h3,
+#clientSays .testimonial--slider-item h4,
+#clientSays .testimonial--slider-item p {
+    margin-left: 55px;
+}
+
+#clientSays .controls-slider {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#clientSays .content-testimonial--text h3 {
+    font-size: 1.7rem;
+    margin-bottom: 1.2rem;
+}
+
+#clientSays  .content-testimonial--text p {
+    margin-bottom: 1.5rem;
+}
+
