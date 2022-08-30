@@ -18,7 +18,7 @@
     z-index: 9999;
     width: 100%;
     height: 100%;
-    display: none;
+    display: block;
 }
 
 .video-headline {
@@ -28,12 +28,11 @@
     transform: translate(50%, -50%);
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
+    width: 60%;
 }
 
 iframe {
-    width:100%;
+    width: 100%;
 }
 
 .bt-close-pop {
